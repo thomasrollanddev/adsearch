@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+import Nav from "@/components/Nav";
 import { Bebas_Neue, Ubuntu } from "next/font/google";
 import "./globals.css";
 
@@ -8,7 +8,7 @@ const ubuntu = Ubuntu({
   weight: ["300", "400", "500", "700"],
 });
 
-const bebas_Neue = Bebas_Neue({
+const bebas_neue = Bebas_Neue({
   subsets: ["latin"],
   variable: "--Bebas_Neue",
   weight: ["400"],
@@ -22,8 +22,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${ubuntu.variable} ${bebas_Neue.variable}`}>
-        <Header />
+      <body className={`${ubuntu.variable} ${bebas_neue.variable}`}>
+        <Nav />
         {children}
       </body>
     </html>
