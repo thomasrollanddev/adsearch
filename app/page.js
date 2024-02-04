@@ -75,7 +75,12 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-end w-1/2">
-          <Image src="/logo-adsearch.png" alt="logo" width={300} height={100} />
+          <Image
+            src="/Thomas Rolland.png"
+            alt="logo"
+            width={300}
+            height={100}
+          />
         </div>
       </div>
       <h2 className="font-bebas_neue text-[34px] mt-8 text-secondary ">
