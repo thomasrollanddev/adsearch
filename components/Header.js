@@ -19,7 +19,7 @@ export default function Header() {
         </div>
         <div className="flex items-center bg-button text-white py-3 px-4 text-xl">
           <PiMagnifyingGlassLight />
-          <p className="pl-2 text-sm">DERNIERES OFFRES</p>
+          <p className="pl-2 text-sm">DERNIERES OFFRES !</p>
         </div>
       </div>
     </div>
