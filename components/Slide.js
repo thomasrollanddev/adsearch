@@ -35,16 +35,16 @@ export default function Slide() {
                 objectFit="cover"
                 objectPosition="50% 25%"
               />
-
               <div className="pt-3 px-3 ">
                 <h5 className="font-bebas_neue text-[24px] ">CURIEUX</h5>
                 <h6 className="font-bold text-[22px] ">
                   En progression constante
                 </h6>
               </div>
+
               <p className="px-3">
                 {" "}
-                J'apprends constamment, cherchant à exceller pour offrir le
+                J&apos;apprends constamment, cherchant à exceller pour offrir le
                 meilleur à mes collaborateurs et clients.
               </p>
             </div>
@@ -63,13 +63,13 @@ export default function Slide() {
               <div className="pt-3 px-3 ">
                 <h5 className="font-bebas_neue text-[24px]">CRÉATIF</h5>
                 <h6 className="font-bold text-[22px]">
-                  Jamais à court de propositons
+                  Jamais à court de propositions
                 </h6>
               </div>
               <p className="px-3">
                 {" "}
-                L'innovation me pousse à repousser les limites, apportant des
-                idées fraîches à chaque projet.
+                L&apos;innovation me pousse à repousser les limites, apportant
+                des idées fraîches à chaque projet.
               </p>
             </div>
           </div>
@@ -87,13 +87,13 @@ export default function Slide() {
               <div className="pt-3 px-3 ">
                 <h5 className="font-bebas_neue text-[24px]">COLLABORATIF</h5>
                 <h6 className="font-bold text-[22px]">
-                  Possède un vrai esprit d'équipe
+                  Possède un vrai esprit d&apos;équipe
                 </h6>
               </div>
               <p className="px-3">
                 {" "}
-                À l'écoute, je collabore activement et travaille avec l'équipe
-                pour répondre aux besoins du projet.
+                À l&apos;écoute, je collabore activement et travaille avec
+                l&apos;équipe pour répondre aux besoins du projet.
               </p>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function Slide() {
               <div className="pt-3 px-3 ">
                 <h5 className="font-bebas_neue text-[24px]">FIABLE</h5>
                 <h6 className="font-bold text-[22px]">
-                  Quelqu'un sur qui on peut compter
+                  Quelqu&apos;un sur qui on peut compter
                 </h6>
               </div>
               <p className="px-3">

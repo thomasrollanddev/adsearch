@@ -24,7 +24,7 @@ export default function Home() {
           />
           <p className="tracking-wider text-center">JE SUIS TALENTUEUX</p>
           <p className="tracking-wider text-center">JE RECHERCHE UN JOB</p>
-          <p className="tracking-wider text-center">ME CONTACTER</p>
+          <p className="tracking-wider text-center">JE SUIS DISPONIBLE</p>
           <div className="flex items-center bg-bg_fav_joke text-text_fav_joke py-3 px-4">
             <CiHeart />
             <p className="pl-2">FAVORIS</p>
@@ -69,27 +69,27 @@ export default function Home() {
       <div className="flex flex-col mt-8 w-full items-center lg:flex-row  lg:w-[60vw]">
         <div className="w-11/12 lg:w-1/2">
           <p>
-            Avec <span className="font-bold">deux années</span> d'expérience
-            passionnantes dans le domaine du{" "}
+            Avec <span className="font-bold">deux années</span>{" "}
+            d&apos;expérience passionnantes dans le domaine du{" "}
             <span className="font-bold">développement web</span>, je suis un
-            développeur dévoué qui a eu l'opportunité de travailler sur des
+            développeur dévoué qui a eu l&apos;opportunité de travailler sur des
             projets variés pour des particuliers, des associations et des
             entreprises.
-          </p>{" "}
+          </p>
           <p>
             <span className="font-bold">Curieux</span>,{" "}
             <span className="font-bold">autonome</span>,{" "}
             <span className="font-bold">créatif</span> et{" "}
-            <span className="font-bold">fiable</span>, je m'adapte pour répondre
-            aux besoins techniques des projets et des équipes avec lesquelles je
-            travaille.
+            <span className="font-bold">fiable</span>, je m&apos;adapte pour
+            répondre aux besoins techniques des projets et des équipes avec
+            lesquelles je travaille.
           </p>
           <p className="mt-2">
-            Mon parcours m'a permis de collaborer étroitement avec mes clients
-            et collaborateurs pour comprendre leurs besoins et traduire leurs
-            visions en solutions numériques adaptées. Spécialisé dans le{" "}
+            Mon parcours m&apos;a permis de collaborer étroitement avec mes
+            clients et collaborateurs pour comprendre leurs besoins et traduire
+            leurs visions en solutions numériques adaptées. Spécialisé dans le{" "}
             <span className="font-bold">développement front-end</span>, ma
-            polyvalence s'étend cependant au développement back-end et à la
+            polyvalence s&apos;étend cependant au développement back-end et à la
             création d’interfaces utilisateurs en cas de besoin.
           </p>
           <div className="mt-2">
@@ -101,14 +101,14 @@ export default function Home() {
             </span>
             .
             <p className="mt-3 italic text-[20px]">
-              Je suis le développeur qu'il vous faut !
+              Je suis le développeur qu&apos;il vous faut !
             </p>
           </div>
         </div>
         <div className="flex  items-center w-full justify-center mt-8 lg:mt-0 lg:justify-end lg:w-1/2">
           <div className="flex flex-col items-center font-bold">
             <Image
-              src="/Thomas Rolland.png"
+              src="/thomasrolland.webp"
               alt="logo"
               width={300}
               height={300}
