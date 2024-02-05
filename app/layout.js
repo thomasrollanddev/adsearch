@@ -1,4 +1,3 @@
-import Nav from "@/components/Nav";
 import { Bebas_Neue, Ubuntu } from "next/font/google";
 import "./globals.css";
 
@@ -23,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${ubuntu.variable} ${bebas_neue.variable}`}>
-        <Nav />
+        {/* <Nav /> */}
         {children}
       </body>
     </html>

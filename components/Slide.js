@@ -14,21 +14,21 @@ export default function Slide() {
   });
 
   return (
-    <div className="w-full h-full ">
+    <div className="w-full h-full  ">
       <motion.div
-        className="overflow-hidden"
+        className="overflow-hidden flex"
         ref={slider_wrapper}
         whileTap={{ cursor: "grabbing" }}
       >
         <motion.div
-          className="flex justify-between items-center"
+          className="inline-flex justify-between items-center space-x-4"
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
         >
-          <div className="relative w-[280px] h-[520px] bg-white border">
+          <div className="relative min-w-[280px] h-[520px] bg-white border">
             <div>
               <Image
-                src="/curieux.png"
+                src="/curieux.webp"
                 alt="logo"
                 width={280}
                 height={280}
@@ -50,10 +50,10 @@ export default function Slide() {
             </div>
           </div>
 
-          <div className="relative w-[280px]  h-[520px] bg-white border">
+          <div className="relative min-w-[280px]  h-[520px] bg-white border">
             <div>
               <Image
-                src="/creatif.png"
+                src="/creatif.webp"
                 alt="logo"
                 width={280}
                 height={280}
@@ -74,10 +74,10 @@ export default function Slide() {
             </div>
           </div>
 
-          <div className="relative w-[280px]  h-[520px] bg-white border">
+          <div className="relative min-w-[280px]  h-[520px] bg-white border">
             <div>
               <Image
-                src="/collaboratif.png"
+                src="/collaboratif.webp"
                 alt="logo"
                 width={280}
                 height={280}
@@ -98,10 +98,10 @@ export default function Slide() {
             </div>
           </div>
 
-          <div className="relative w-[280px]  h-[520px] bg-white border">
+          <div className="relative min-w-[280px]  h-[520px] bg-white border">
             <div>
               <Image
-                src="/fiable.png"
+                src="/fiable.webp"
                 alt="logo"
                 width={280}
                 height={280}
@@ -153,7 +153,7 @@ breakpoints={{
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex flex-col max-w-[15vw]">
-  <div className="w-[280px] h-[155px] bg-green-200"></div>
+  <div className="min-w-[280px] h-[155px] bg-green-200"></div>
   <div>Créatif</div>
   <div>Jamais à court de propositons</div>
   <div>
@@ -162,7 +162,7 @@ breakpoints={{
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex flex-col max-w-[15vw]">
-  <div className="w-[280px] h-[155px] bg-red-400"></div>
+  <div className="min-w-[280px] h-[155px] bg-red-400"></div>
   <div>Fiable</div>
   <div>Quelqu'un sur qui on peut compter</div>
   <div>
@@ -171,7 +171,7 @@ breakpoints={{
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex flex-col max-w-[15vw]">
-  <div className="w-[280px] h-[155px] bg-red-600"></div>
+  <div className="min-w-[280px] h-[155px] bg-red-600"></div>
   <div>Collaboratif</div>
   <div>Possède un vrai esprit d'équipe</div>
   <div>

@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-export default function Header() {
+export default function HeaderJoke() {
   return (
-    <div className="absolute top-0 h-[400px] w-full bg-background_image z-10">
+    <div className="absolute top-0 h-[400px] w-full bg-background_image_joke z-10">
       <Image
         src="/banner.webp"
         alt="background"

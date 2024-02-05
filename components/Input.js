@@ -22,7 +22,7 @@ export default function Input({ title, placeholder, width }) {
       >
         <input
           type="text"
-          className="absolute bottom-0 w-full h-4/6 z-0 group px-5 bg-none bg-slate-200 outline-none mb-2"
+          className="absolute bottom-0 left-0 w-full h-4/6 z-0 group px-5 bg-none bg-slate-200 outline-none mb-2"
           onChange={handleInputChange}
         />
         <p
